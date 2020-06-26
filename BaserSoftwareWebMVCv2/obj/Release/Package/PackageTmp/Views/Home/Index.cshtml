@@ -1,0 +1,119 @@
+﻿
+@{
+    ViewBag.Title = "Ana Sayfa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="main">
+    <div class="wrap">
+        <div class="sidebar">
+            <div class="sidebar_left_top">
+                <div class="services">
+                    <h3>@homePage_res.HomePage.Projeler</h3>
+                    <div class="services_list">
+                        <ul>
+                            <li><a href="~/Projects/ApkManagerProject">Apk Manager</a></li>
+                            <li><a href="~/Projects/ApkManagerProProject">Apk Manager Pro</a></li>
+                            <li><a href="~/Projects/DownloadTimeCalculatorProject">Download Time Calculator</a></li>
+                            <li><a href="https://www.microsoft.com/store/productId/9NS97QXPWJ2V" target="_blank">Download Time Calculator Win10 Edition</a></li>
+                            <li><a href="https://store.steampowered.com/app/1071700/DeathMatch/" target="_blank">DeathMatch</a></li>
+                            <li><a href="~/Projects/byDockProject">byDock</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar_left_bottom">
+                 <div class="projects">
+                     <h3>@homePage_res.HomePage.Hizmetlerimiz</h3>
+                     <div class="services_list">
+                         <a>@homePage_res.HomePage.Hizmet_Bulunamadi</a>
+                         <!--<ul>
+
+                             <li><a href="~/Projects/PixelRunProject">Pixel Run Android Game</a></li>
+                             <li><a href="~/Projects/ApkManagerProject">Apk Manager</a></li>
+                             <li><a href="~/Projects/DownloadTimeCalculatorProject">Download Time Calculator</a></li>
+                         </ul>-->
+                     </div>
+                 </div>
+                 </div>
+        </div>
+
+        <!-- Small modal -->
+        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Önemli Uyarı !</button>
+
+         <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+             <div class="modal-dialog modal-sm" role="document">
+                 <div class="modal-content">
+                     <h4>Microsoft Edge'de kaynaklanan kaynak kod sorunu yüzünden header(Ana Sayfa,Hakkımızda vb butonları) bölümünde sorun yaşanmaktadır.Mümkünse Mozilla Firefox,Safari,Google Chrome tarayıcılarından birini kullanabilirsiniz.</h4>
+                 </div>
+             </div>
+         </div>-->
+
+
+        <div class="content">
+            <div class="content_bottom">
+                <h2>@homePage_res.HomePage.BaserYazilima_Hosgeldiniz</h2>
+                <h3></h3>
+                <p>@homePage_res.HomePage.Content_Aciklama</p>
+                <p></p>
+                <div class="feature_list">
+                    <h2>@homePage_res.HomePage.Neden_Baser_Yazilim</h2>
+                    <ul>
+                        <li>@homePage_res.HomePage.Madde_1</li>
+                        <li>@homePage_res.HomePage.Madde_2</li>
+                        <li>@homePage_res.HomePage.Madde_3</li>
+                        <li>@homePage_res.HomePage.Madde_4</li>
+
+                    </ul>
+                </div>
+                <p>@homePage_res.HomePage.Madde_Aciklama</p>
+            </div>
+        </div>
+
+
+
+
+        <div class="sidebar">
+            <div class="sidebar_right_top">
+                <h3>@homePage_res.HomePage.Yenilik_Haberleri</h3>
+                <div class="latestnews">
+                    <div class="latestnews_desc">
+                        <h4>27 @latestNews.LatestNewsPage.Subat 2020 (v2.4.2)</h4>
+                        <p>* @homePage_res.HomePage.yenilik1<br /></p>
+                        <p>* @homePage_res.HomePage.yenilik2</p>
+                        <p>* @homePage_res.HomePage.yenilik3</p>
+                        <p>* @homePage_res.HomePage.yenilik4</p>
+                        <p>* @homePage_res.HomePage.yenilik5</p>
+                        <p>* @homePage_res.HomePage.yenilik6</p>
+                    </div>
+
+                    <!--<div class="view-all"><a href="~/Home/LatestNews">@homePage_res.HomePage.Tümünü_Goster</a></div>-->
+                </div>
+            </div>
+                <!-- <div class="sidebar_right_bottom">
+            <h3>Member Login</h3>
+            <div class="login_form">
+                <form>
+                    <div>
+                        <span><label>User Name</label></span>
+                        <span><input name="userName" type="text" class="textbox" /></span>
+                    </div>
+                    <div>
+                        <span><label>Password</label></span>
+                        <span><input name="userName" type="password" /></span>
+                    </div>
+                    <div>
+                        <span><input type="submit" class="mybutton" value="Submit" /></span>
+                    </div>
+                    <span><a href="#">Forgot Password ?</a></span>
+
+                </form>
+                <h4>Free Registration <a href="#">Click Here</a></h4>
+            </div>
+        </div>-->
+
+            </div>
+            <div class="clear"></div>
+        </div>
+</div>
+
